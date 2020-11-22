@@ -1,0 +1,11 @@
+<div class="container">
+  <h1>MENU ITEMS</h1>
+  <div *ngFor="let item of listItems" class="items">
+    <div class="item">
+      <img src="../../../assets/food.jpeg" alt="">
+      <h2>{{item.title}}</h2>
+      <p>{{item.description}}</p>
+      <p>${{item.price}}</p>
+    </div>
+  </div>
+</div>

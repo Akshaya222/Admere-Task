@@ -1,0 +1,50 @@
+.image-text{
+  position: absolute;
+  left: 15%;
+  top: 50%;
+}
+.image-text h1{
+  font-weight: bolder;
+  letter-spacing: 3px;
+  margin-bottom: 0;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.options button:hover{
+  outline: none;
+  box-shadow: 0px 0px 15px #ff9933;
+}
+.options button{
+  display: block;
+  padding: 0 60px;
+  border:2px solid #ff9933 ;
+  background-color: #ffffff;
+  height: 45px;
+  width: 350px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  font-family: 'Almendra'
+}
+.options  .start{
+    background-image: url('../../../assets/images/button_main.png');
+    background-color: #ff9933;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-repeat: no-repeat;
+    background-size: cover;
+    letter-spacing: 3px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.options .start p{
+  font-size: xx-small;
+  color: black;
+  letter-spacing: 0px;
+  font-weight: 0;
+}

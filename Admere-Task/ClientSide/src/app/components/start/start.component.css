@@ -1,0 +1,15 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.tiphinia{
+  position: absolute;
+  top: 23%;
+  left: 35%;
+}
+.tiphinia img{
+  width: 350px;
+  height: 400px;
+}

@@ -1,0 +1,65 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.container{
+  margin: 0;
+  background-image: url(./assets/images/Bg.png);
+  min-height: 130vh;
+  padding: 0;
+}
+.bg-image img{
+  width: 100%;
+  height: 480px!important;
+  position: relative;
+}
+.hurry-image{
+  position: absolute;
+  top:15%;
+  left: 45%;
+}
+.options{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+.options h1{
+  font-size: 1.8rem;
+  font-weight: 600;
+  letter-spacing: 3px;
+  margin: 20px 0;
+}
+.options  .proceed{
+  background-image: url('./assets/images/button_main.png');
+  background-color: #ff9933;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 600;
+  background-repeat: no-repeat;
+  background-size: cover;
+  letter-spacing: 3px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+  padding: 10px 100px;
+}
+.options .move{
+  display: block;
+  border:2px solid #ff9933 ;
+  background-color: #ffffff;
+  height: 45px;
+  width: 350px;
+  border-radius: 12px;
+  margin-bottom: 18px;
+  font-size: 1rem;
+  display: flex;
+  padding: 11px 40px;
+}
+.options input{
+  color: #ff9933;
+}
+.options button:hover{
+  outline: none;
+  box-shadow: 0px 0px 15px #ff9933;
+}
